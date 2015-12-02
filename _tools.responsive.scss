@@ -8,7 +8,7 @@
 $responsive-settings: false !default;
 
 @if ($responsive-settings == false) {
-    @warn "Oops! Have you included a responsive settings file?"
+    @warn "Oops! Have you included a responsive settings file?";
 }
 
 
@@ -58,7 +58,7 @@ $responsive-settings: false !default;
 
     // If the user specifies a non-exitent alias, send them a warning.
     @if $breakpoint-found == false{
-        @warn "Oops! Breakpoint ‘#{$mq}’ does not exist."
+        @warn "Oops! Breakpoint ‘#{$mq}’ does not exist.";
     }
 
 }
