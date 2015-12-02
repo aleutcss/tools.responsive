@@ -5,9 +5,9 @@
 // Here we set a variable assuming that responsive settings are not set
 // globally. If they have been previously been defined, the following variable
 // will be overriden and will be set to `true`.
-$inuit-responsive-settings: false !default;
+$responsive-settings: false !default;
 
-@if ($inuit-responsive-settings == false) {
+@if ($responsive-settings == false) {
     @warn "Oops! Have you included a responsive settings file?"
 }
 
