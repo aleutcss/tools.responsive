@@ -1,5 +1,5 @@
 {
-  "name": "aleut-responsive-tools",
+  "name": "@aleut/aleut-responsive-tools",
   "version": "0.2.0",
   "description": "Responsive tooling for the aleutcss framework (based on Harry Roberts inuitcss framework)",
   "main": "_tools.responsive.scss",
