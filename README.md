@@ -1,6 +1,6 @@
 # Responsive
 
-Currently, this inuitcss module just sets up our media query mixin.
+Currently, this aleutcss module just sets up our media query mixin.
 
 Install using Bower:
 
