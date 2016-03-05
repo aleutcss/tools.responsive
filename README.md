@@ -1,9 +1,26 @@
 # Responsive
 
-Currently, this aleutcss module just sets up our media query mixin.
+A simple mixin to quickly generate whole media queries from the aliases and
+conditions defined in `_settings.responsive.scss` or your own override of the `$breakpoints`-sass-map.
+
+## Install using npm:
+
+```ssh
+	$ npm install --save-dev aleut-responsive-tools
+```
 
 
+## Usage
 
-Install using npm:
+Basic usage of the functions in a SCSS-file:
 
-    $ npm install --save-dev aleut-responsive-tools
+```scss
+.foo {
+	color: green;
+
+	@include media-query(palm) {
+		color: red;
+	}
+
+}
+```
