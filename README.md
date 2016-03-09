@@ -18,7 +18,7 @@ Basic usage of the functions in a SCSS-file:
 .foo {
 	color: green;
 
-	@include media-query(palm) {
+	@include media-query(s) {
 		color: red;
 	}
 
