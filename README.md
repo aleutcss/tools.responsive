@@ -6,7 +6,7 @@ conditions defined in `_settings.responsive.scss` or your own override of the `$
 ## Install using npm:
 
 ```ssh
-	$ npm install --save-dev aleut-responsive-tools
+	$ npm install --save-dev @aleut/tools.responsive
 ```
 
 
